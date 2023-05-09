@@ -1,0 +1,198 @@
+@import url(../../styles/reset.css);
+@import url(../../styles/header.css);
+@import url(../../styles/bottom.css);
+
+.hero {
+    position: relative;
+    width: 1110px;
+    margin: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: 600px;
+    margin-top: 58px;
+}
+
+.hero-box {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+
+    width: 445px;
+    height: 357px;
+
+    background-color: #ffffff;
+}
+
+.hero-text {
+    position: absolute;
+    top: 56px;
+    left: 27px;
+
+    width: 390px;
+    height: 200px;
+    text-align: left;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+
+    width: 200px;
+    height: 48px;
+
+    background-color: #203a4c;
+}
+
+.hero-button:hover {
+    background-color: rgba(95, 180, 162, 0.75);
+}
+
+.icon-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 48px;
+    height: 48px;
+
+    background-color: #1b3141;
+}
+
+.hero-button:hover .icon-box {
+    background-color: rgba(95, 180, 162, 0.75);
+}
+
+.icon-box svg {
+    position: absolute;
+    left: 14px;
+    bottom: 16px;
+
+    width: 20px;
+    height: 15px;
+
+    stroke: #5FB4A2;
+    fill: none;
+}
+
+.hero-button:hover .icon-box svg {
+    stroke: #ffffff;
+}
+
+.text-button {
+    position: absolute;
+    top: calc(50% - 14px/2);
+    right: 0%;
+    left: 24%;
+
+    height: 14px;
+
+    border: none;
+    color: #ffffff;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.about {
+    display: flex;
+
+    width: 1110px;
+    height: 601px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+    background-color: #ffffff;
+}
+
+.about img {
+    align-self: flex-start;
+
+    width: 540px;
+    height: 600px;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 430px;
+    height: 601;
+    margin-left: 140px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.about-title {
+    width: 430px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.about p {
+    width: 430px;
+    height: 360px;
+    margin-top: 30px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    width: 204px;
+    height: 48px;
+    margin-top: 20px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    cursor: pointer;
+    border: 1px solid #33323D;
+}

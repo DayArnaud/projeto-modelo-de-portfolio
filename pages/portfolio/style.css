@@ -1,0 +1,336 @@
+@import url(../../styles/reset.css);
+@import url(../../styles/header.css);
+@import url(../../styles/bottom.css);
+
+.manage {
+    display: flex;
+
+    width: 1110px;
+    height: 500px;
+    margin-top: 94px;
+
+    background-color: #ffffff;
+}
+
+.manage img {
+    align-self: flex-start;
+
+    width: 540px;
+    height: 500px;
+}
+
+.manage div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 475px;
+    height: 500;
+    margin-left: 120px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.manage-title {
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.manage p {
+    width: 350px;
+    height: 120px;
+    margin-top: 28px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.manage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 48px;
+
+    margin-top: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.bookmark {
+    display: flex;
+
+    width: 1110px;
+    height: 500px;
+    margin-top: 94px;
+
+    background-color: #ffffff;
+}
+
+.bookmark div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 350px;
+    height: 500;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.bookmark-title {
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.bookmark p {
+    width: 350px;
+    height: 120px;
+    margin-top: 28px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.bookmark-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 48px;
+
+    margin-top: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.bookmark img {
+    width: 540px;
+    height: 500px;
+    margin-left: 210px;
+}
+
+.insure {
+    display: flex;
+
+    width: 1110px;
+    height: 500px;
+    margin-top: 94px;
+
+    background-color: #ffffff;
+}
+
+.insure img {
+    align-self: flex-start;
+
+    width: 540px;
+    height: 500px;
+}
+
+.insure div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 475px;
+    height: 500;
+    margin-left: 120px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.insure-title {
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.insure p {
+    width: 350px;
+    height: 120px;
+    margin-top: 28px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.insure-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 48px;
+
+    margin-top: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.fylo {
+    display: flex;
+
+    width: 1110px;
+    height: 500px;
+    margin-top: 94px;
+    margin-bottom: 120px;
+
+    background-color: #ffffff;
+}
+
+.fylo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 350px;
+    height: 500;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.fylo-title {
+    width: 350px;
+    height: 42px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.fylo p {
+    width: 350px;
+    height: 120px;
+    margin-top: 28px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.fylo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 48px;
+
+    margin-top: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.fylo img {
+    width: 540px;
+    height: 500px;
+    margin-left: 210px;
+}

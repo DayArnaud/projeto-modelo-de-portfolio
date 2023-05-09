@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1110px;
+    height: 32px;
+
+    background-color: #ffffff;
+}
+
+header img {
+    justify-content: flex-start;
+}
+
+.top-nav-items {
+    padding-left: 30px;
+
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
